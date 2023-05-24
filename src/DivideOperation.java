@@ -1,4 +1,4 @@
-public class DivideOpertaion {
+public class DivideOperation {
 
     int firstNumber, secondNumber;
 
