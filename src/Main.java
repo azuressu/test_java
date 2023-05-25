@@ -4,6 +4,8 @@ public class Main {
                                             new MultiplyOperation(), new DivideOperation());
 
         System.out.println(calculator.calculate("+", 10, 20));
+        System.out.println(calculator.calculate("-", 10, 20));
         System.out.println(calculator.calculate("*", 10, 20));
+        System.out.println(calculator.calculate("/", 10, 20));
     }
 }
