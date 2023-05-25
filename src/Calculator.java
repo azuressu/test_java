@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Calculator {
     private final AddOperation addOperation;
     private final SubstractOperation substractOperation;
@@ -29,6 +31,19 @@ public class Calculator {
         } // switch
     } // calculate
 
+//    public double calculate(String s, int firstNum, int secondNum) {
+//        if (Objects.equals(s, "+")) {
+//            return addOperation.operate(firstNum, secondNum);
+//        } else if (Objects.equals(s, "-")) {
+//            return substractOperation.operate(firstNum, secondNum);
+//        } else if (Objects.equals(s, "*")) {
+//            return multiplyOperation.operate(firstNum, secondNum);
+//        } else if (Objects.equals(s, "/")) {
+//            return divideOperation.operate(firstNum, secondNum);
+//        } else {
+//            return 0; // if문 종료
+//        }
+//    } // calculate 메소드
 
 }
 
